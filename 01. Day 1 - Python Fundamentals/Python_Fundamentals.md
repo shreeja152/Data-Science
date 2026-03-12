@@ -1,6 +1,6 @@
-#Variables,inputs,type conversion,Strings,Operators in Python
+# Variables,inputs,type conversion,Strings,Operators in Python
 
-#Variables
+### Variables
 ```
 name = "Shreeja"
 age = 21
@@ -8,20 +8,20 @@ new_patient = True
 print(name  ,"is" , age , "year old new patient or not? "  , new_patient)
 ```
 
-#input
+### input
 ```
 name = input("What's your name?")
 print("Hello " , name)
 ```
 
-#Type conversion
+### Type conversion
 ```
 year_of_birth = input("Please enter your year of birth: ")
 current_age = 2024 - int(year_of_birth)
 print("Age : " , current_age )
 ```
 
-#Strings
+### Strings
 ```
 language = "Code in Python Language"
 print(language.upper())
@@ -30,7 +30,7 @@ print(language.replace('in','2'))
 print(language)
 ```
 
-#Arithmetic Operations
+### Arithmetic Operations
 ```
 x=10
 print(x + 3)           #Addition
@@ -41,7 +41,7 @@ print(x % 3)           #Percentage
 print(x ** 3)          #Power
 ```
 
-#Comparion Operators
+### Comparion Operators
 ```
 print(5>2 )               #Greater than
 print(5<2)                #lesser than
@@ -51,7 +51,7 @@ print(5==2)               #Equality operator
 print(5!=2)               #Not eqaulity operator
 ```
 
-#Logical 
+### Logical 
 ```
 age = 25
 print("Logical Operators")
