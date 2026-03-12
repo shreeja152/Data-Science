@@ -1,7 +1,7 @@
-#conditional statements, while loops, lists
+# Conditional statements, while loops, lists
 
-#conditional statements
-
+### Conditional statements
+```
 tempretature = 25
 
 if tempretature > 30:
@@ -14,22 +14,30 @@ elif tempretature > 10:
 else:
     print("Its a cold day")
 print("Done")
+```
 
-#while loops
+### while loops
+```
 i = 1
 while i<=10:
     print(i * '*')
     i = i + 1
+```
 
-#lists 
+### lists 
+
+```
 names = ["Abc", "Def", "Ghi", "Jkl", "Mno"]
 names[3] = "Jhi"
 print(names [0])
 print(names[-1])
 print(names[0:3])
 print(names)
+```
 
-#list methods
+### list methods
+
+```
 numbers = [1,2,3,4,5]
 numbers.append(6)
 numbers.insert(0, -1)
@@ -37,9 +45,11 @@ numbers.remove(3)
 print(numbers)
 print(2 in numbers)
 print(len(numbers))
+```
 
-#for loops
+### for loops
+```
 num = [7,8,9,10,11,12]
 for item in num :
     print(item)
-
+```
